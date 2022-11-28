@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.btn_login {
+    display: flex;
+}
+
+.btn_signup {
+    display: flex;
+    justify-content: space-between;
+}
