@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="thumb_login">
+            <div class="signup_form">
+                <form action="" method="POST" class="form" id="form-1">
+                    <div class="directional">
+                        <a href="">Trang chủ</a>
+                        /
+                        <a style="font-weight: 600;" href="">Tài khoản</a>
+                    </div>
+                    <h1 class="account">Tài khoản</h1>
+                    <h1 class="desc">Đăng nhập</h1>
+                    <span class="signup">
+                        Bạn đã có tài khoản?
+                        <a href="./signup.html">Đăng nhập</a>
+                    </span>
+                    
+                    <div class="btn_signup">
+                        <button class="form-submit login">
+                            <img class="logo_login" src="./assets/imgs/google.png" alt="">
+                            Google
+                        </button>
+                        <button class="form-submit login">
+                            <img class="logo_login" src="./assets/imgs/facebook.png" alt="">
+                            Facebook
+                        </button>
+                    </div>
+
+
+
+
+                    <div class="spacer"></div>
+
+                    <div class="form-group">
+                        <span>Email</span>
+                        <input id="fullname loginId" name="fullname" type="text" placeholder="Email"
+                            class="form-control emailandphone ">
+                        <!-- <i class="fa-solid fa-eye show_pass"></i> -->
+                        <span class="form-message"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <span>Mật khẩu</span>
+                        <input id="password loginPassword" name="password" type="password" placeholder="Mật khẩu"
+                            class="form-control ">
+                        <span class="form-message"></span>
+                    </div>
+
+                    <span class="maintain_login">
+                        <span>
+                            <input type="checkbox" name="" id="">
+                            Ghi nhớ
+                        </span>
+                        <span class="signup">
+                            <a href="">Quên mật khẩu?</a>
+                        </span>
+                    </span>
+
+                    <button class="form-submit submit form-login-submit">Đăng nhập</button>
+
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
