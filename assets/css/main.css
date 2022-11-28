@@ -62,7 +62,7 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   height: 8rem;
-  background: rgba(255, 255, 255, 0.871);
+  background-color: #fff;
   font-size: 1.9rem;
 }
 
@@ -515,7 +515,7 @@ button:hover {
   margin-bottom: 2rem;
 }
 
-.footer__logo-name span{
+.footer__logo-name span {
   font-size: 2.3rem;
   font-weight: 550;
 }
@@ -538,7 +538,7 @@ button:hover {
   transform: translateX(-20%);
 }
 
-.footer__contact ul li:first-child{
+.footer__contact ul li:first-child {
   transform: translateX(0);
 }
 
@@ -553,7 +553,7 @@ button:hover {
   padding: 3px;
 }
 
-.footer__logo button{
+.footer__logo button {
   background-color: #fff;
   color: #0d1222;
   font-size: 2rem;
