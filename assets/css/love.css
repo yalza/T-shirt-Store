@@ -26,6 +26,7 @@ html {
 .product_heading {
   padding: 20px 0;
   color: #fff;
+  font-size: 2rem;
 }
 
 .product_heading a {
@@ -34,6 +35,7 @@ html {
 
 .product_title {
   color: #fff;
+  font-size: 3rem;
   padding: 10px 0;
 }
 
