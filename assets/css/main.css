@@ -57,13 +57,15 @@ button:hover {
   top: 0;
   left: 0;
   right: 0;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 8rem;
   background-color: #fff;
   font-size: 1.9rem;
+  z-index: 1;
 }
 
 .nav__right {
