@@ -50,6 +50,10 @@ button:hover {
   background-image: linear-gradient(to bottom, #0d1222, #9c9c9c);
 }
 
+a{
+  color: black;
+}
+
 /* header nav */
 
 .header__nav {

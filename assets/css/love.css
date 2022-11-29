@@ -12,13 +12,16 @@ html {
 
 .container_product_love {
   margin-top: 80px;
-  background-image: linear-gradient(to bottom,
-      rgba(24, 27, 41, 0.73),
-      rgba(1, 4, 21, 0.52));
+  background-image: linear-gradient(
+    to bottom,
+    rgba(24, 27, 41, 0.73),
+    rgba(1, 4, 21, 0.52)
+  );
+
 }
 .container_product_love_header {
   margin: 0 10rem;
-  width: 25%;
+  width: 45%;
   padding: 48px 0 88px 0;
 }
 
@@ -34,16 +37,20 @@ html {
 
 .product_title {
   color: #fff;
-  font-size: 3rem;
+  font-size: 4rem;
   padding: 10px 0;
 }
 
 .product_description {
   color: #fff;
+  font-size: 2rem;
+  opacity: 0.7;
+  margin-top: 2rem;
 }
 
 .container_product_love_body {
-  margin: 5rem 10rem;
+  margin: 7rem 15rem 15rem;
+  font-size: 1.6rem;
 }
 
 .product_love_title {
@@ -60,6 +67,8 @@ html {
   justify-content: space-between;
   padding: 20px 20px 20px 0;
   margin-top: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .product_love_item_info {
@@ -74,11 +83,17 @@ html {
 
 .product_love_item_info i {
   padding: 20px;
+  font-size: 2rem;
 }
 
 .product_love_item button {
   padding: 10px;
   border: none;
-  background-color: #9b9b9b;
+  background-color: #555454;
   color: #fff;
+  font-size: 2rem;
+}
+
+a{
+  color: black;
 }

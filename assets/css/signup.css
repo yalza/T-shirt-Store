@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: inherit;
 }
-
+a{
+    color: black;
+}
 html {
     font-size: 62.5%;
     box-sizing: border-box;

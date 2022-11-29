@@ -39,7 +39,7 @@ html {
 
 .acc_body {
   background-color: #fff;
-  padding: 20px 8px;
+  padding: 0px 8px;
   text-align: center;
   width: 30%;
   box-shadow: 0 4px 8px 4px #9c9c9c;
@@ -52,7 +52,7 @@ html {
 }
 
 .acc_title {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .acc_title_name {
@@ -72,7 +72,13 @@ html {
 }
 
 .account {
-  margin: 10px 0;
+  font-size: 4rem;
+  margin: 1rem 0;
+}
+
+.form-group>span{
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 .description_content {
@@ -80,14 +86,19 @@ html {
 }
 
 .description {
-  font-size: 1.2rem;
+  font-size: 2rem;
+  opacity: 0.7;
 }
 
 .form-area {
   width: 100%;
-  padding: 8px 12px;
+  padding: 4px 12px;
   outline: none;
-  font-size: 1.2rem;
+  font-size: 2rem;
+}
+
+.form-group input{
+    font-size: 2rem;
 }
 
 .form_update {
@@ -121,6 +132,7 @@ html {
   align-items: center;
 }
 
-span {
-  margin: 6px 0;
+
+span{
+    font-size: 2rem;
 }

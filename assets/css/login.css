@@ -74,7 +74,7 @@ html {
 .form .desc {
     /* text-align: center; */
     color: #ffffff;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: lighter;
     line-height: 2.4rem;
     margin: 20px 0;
@@ -85,6 +85,15 @@ html {
     display: flex;
     margin-bottom: 16px;
     flex-direction: column;
+}
+
+.form-group span{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.form-group input{
+    font-size: 2rem;
 }
 
 .form-label,
@@ -184,7 +193,7 @@ html {
     margin: 12px 0;
     /* float: right; */
     color: #fff;
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 .signup a {
@@ -209,7 +218,11 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.6rem;
+    font-size: 2.5rem;
+}
+
+.maintain_login input{
+    padding: 1rem;
 }
 
 .banner {
@@ -255,4 +268,8 @@ hr {
 .directional a {
     color: #fff;
     text-decoration: none;
+}
+
+.account{
+    font-size: 4rem;
 }

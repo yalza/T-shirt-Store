@@ -111,6 +111,9 @@ button:hover {
   margin-left: 5rem;
   font-weight: 600;
 }
+a{
+  color: black;
+}
 
 .nav__list a:focus {
   color: #0d1222;
