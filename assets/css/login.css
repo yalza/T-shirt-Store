@@ -228,7 +228,7 @@ hr {
 .banner {
     margin-top: 88px;
     padding-top: 50%;
-    background: url('..assets/imgs/Banner.png') top center / cover no-repeat;
+    background: url('../assets/imgs/Banner.png') top center / cover no-repeat;
     background-size: 100% 600px;
 }
 
