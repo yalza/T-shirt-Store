@@ -157,23 +157,114 @@ button:hover {
 
 /* Container */
 
-.container{
-    padding: 3rem 15rem;
+.container {
+  padding: 6rem 15rem;
 }
 
-.ctn__product{
+.ctn__product {
+  display: flex;
+  justify-content: space-between;
+}
+.ctn__product-imgs img {
+  width: 55rem;
+}
+
+.ctn__product-detail {
+  width: 60rem;
+}
+
+.ctn__product-detail > h3 {
+  font-size: 3.5rem;
+  font-weight: 650;
+  margin: 2rem 0;
+}
+
+.ctn__product-detail > p {
+  font-size: 2rem;
+  line-height: 3rem;
+  opacity: 0.6;
+  margin-bottom: 1.5rem;
+}
+
+.item-rating i {
+  color: rgb(242, 242, 37);
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.aaa,
+.ctn__product-detail > span {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.bbb {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.bbb > span {
+  font-size: 2rem;
+}
+
+.bbb-span span {
+  padding: 0.5rem 1rem;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+.size__list {
+  margin:2.5rem 0rem;
+}
+
+.size__list span {
+  background: gray;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-right:  2rem;
+  font-size: 1.8;
+}
+
+.amount{
     display: flex;
     justify-content: space-between;
-}
-.ctn__product-imgs{
-    width: 45%;
-}
-.ctn__product-imgs img{
-    width: 90%;
+    align-items: center;
+    margin-top: 1rem;
 }
 
+.amount input{
+    padding: 1rem;
+    width: 20rem;
+    border: 2px solid gray;;
+    font-size: 1.8rem;
+}
 
+.price{
+    font-size: 4rem;
+    font-weight: 600;
+}
 
+.btn-pay{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.btn-pay button:first-child{
+    width: 75%;
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+.btn-pay button:last-child{
+    width: 20%;
+    font-size: 2.5rem;
+}
 
 /* Footer */
 
