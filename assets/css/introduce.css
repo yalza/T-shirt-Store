@@ -57,7 +57,7 @@ button:hover {
   top: 0;
   left: 0;
   right: 0;
-
+  z-index: 10;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -82,7 +82,7 @@ button:hover {
   font-weight: 700;
 }
 
-.nav__logo > img {
+.nav__logo>img {
   width: 6rem;
 }
 
@@ -155,6 +155,7 @@ button:hover {
   width: 40rem;
   margin-top: -5rem;
 }
+
 .header__ctn-type span {
   font-size: 4rem;
   font-weight: 550;
@@ -168,9 +169,11 @@ button:hover {
 .type-1 {
   width: 50%;
 }
-.type-1 > span {
+
+.type-1>span {
   margin-top: 10rem;
 }
+
 .header__ctn-nav {
   margin: 2rem 0 3rem;
 }
@@ -189,7 +192,7 @@ button:hover {
 /* Container */
 
 .container {
-  padding:0 15rem;
+  padding: 0 15rem;
 }
 
 .container h4 {
@@ -212,9 +215,9 @@ button:hover {
 }
 
 .ctn__report-detail,
-.ctn__target-detail{
-    width: 45%;
-    margin-top: 5rem;
+.ctn__target-detail {
+  width: 45%;
+  margin-top: 5rem;
 }
 
 /* Footer */
