@@ -1,183 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/signup.css">
-    <link rel="stylesheet" href="./assets/css/login.css">
-    <link rel="stylesheet" href="./assets/css/introduce.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <link rel="stylesheet" href="./assets/css/signup.css" />
+    <link rel="stylesheet" href="./assets/css/login.css" />
+    <link rel="stylesheet" href="./assets/css/introduce.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<body>
-
+  <body>
     <div class="header__nav">
-        <div class="nav__left">
-            <div class="nav__logo">
-                <img src="assets/imgs/toàn-logos_black.png" alt="" />
-                <span>TOAN Store</span>
-            </div>
+      <div class="nav__left">
+        <div class="nav__logo">
+          <img src="assets/imgs/toàn-logos_black.png" alt="" />
+          <span>TOAN Store</span>
         </div>
-        <div class="nav__right">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="index.html">Trang chủ</a></li>
-                <li class="nav__item"><a href="shop.html">Cửa hàng</a></li>
-                <li class="nav__item"><a href="introduce.html">Giới thiệu</a></li>
-                <li class="nav__item"><a href="contact.html">Liên hệ</a></li>
-            </ul>
-            <div class="nav__icon">
-                <a href="" class="cart__icon"><i class="fa-solid fa-cart-shopping"></i></a>
-                <a href="" class="heart__icon"><i class="fa-solid fa-heart"></i></a>
-                <a href="" class="user__icon"><i class="fa-solid fa-user"></i></a>
-            </div>
-            <div class="nav__search-box">
-                <input type="text" class="search__input" placeholder="Search" />
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
+      </div>
+      <div class="nav__right">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html">Trang chủ</a></li>
+          <li class="nav__item"><a href="shop.html">Cửa hàng</a></li>
+          <li class="nav__item"><a href="introduce.html">Giới thiệu</a></li>
+          <li class="nav__item"><a href="contact.html">Liên hệ</a></li>
+        </ul>
+        <div class="nav__icon">
+          <a href="cart.html" class="cart__icon"
+            ><i class="fa-solid fa-cart-shopping"></i
+          ></a>
+          <a href="love.html" class="heart__icon"
+            ><i class="fa-solid fa-heart"></i
+          ></a>
+          <a href="acc.html" class="user__icon"
+            ><i class="fa-solid fa-user"></i
+          ></a>
         </div>
+        <div class="nav__search-box">
+          <input type="text" class="search__input" placeholder="Search" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
     </div>
 
     <div class="main">
-
-        <div class="thumb_login">
-            <div class="signup_form">
-                <form action="" method="POST" class="form" id="form-1">
-                    <div class="directional">
-                        <a href="">Trang chủ</a>
-                        /
-                        <a style="font-weight: 600;" href="">Tài khoản</a>
-                    </div>
-                    <h1 class="account">Tài khoản</h1>
-                    <h1 class="desc">Đăng Ký</h1>
-                    <span class="signup">
-                        Bạn đã có tài khoản?
-                        <a href="./login.html">Đăng nhập</a>
-                    </span>
-                    <div class="btn_login">
-                        <button class="form-submit login">
-                            <img class="logo_login" src="./assets/imgs/google.png" alt="">
-                            Google
-                        </button>
-                        <button class="form-submit login">
-                            <img class="logo_login" src="./assets/imgs/facebook.png" alt="">
-                            Facebook
-                        </button>
-                    </div>
-                    <div class="spacer"></div>
-
-
-                    <div class="btn_signup">
-                        <div class="form-group">
-                            <span>Họ</span>
-                            <input style="width:115%" ; id="fullname loginId" name="fullname" type="text"
-                                placeholder="Email" class="form-control emailandphone ">
-                            <!-- <i class="fa-solid fa-eye show_pass"></i> -->
-                            <span class="form-message"></span>
-                        </div>
-                        <div class="form-group">
-                            <span style="margin-left: -15%;">Tên</span>
-                            <input style="width:115%;margin-left:-15%" ; id="fullname loginId" name="fullname"
-                                type="text" placeholder="Email" class="form-control emailandphone ">
-                            <!-- <i class="fa-solid fa-eye show_pass"></i> -->
-                            <span class="form-message"></span>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <span>Email</span>
-                        <input id="fullname loginId" name="fullname" type="text" placeholder="Email"
-                            class="form-control emailandphone ">
-                        <!-- <i class="fa-solid fa-eye show_pass"></i> -->
-                        <span class="form-message"></span>
-                    </div>
-
-                    <div class="form-group">
-                        <span>Mật khẩu</span>
-                        <input id="password loginPassword" name="password" type="password" placeholder="Mật khẩu"
-                            class="form-control ">
-                        <span class="form-message"></span>
-                    </div>
-
-                    <div class="form-group">
-                        <span>Nhập lại mật khẩu</span>
-                        <input id="password loginPassword" name="password" type="password" placeholder="Mật khẩu"
-                            class="form-control ">
-                        <span class="form-message"></span>
-                    </div>
-
-                    <span class="maintain_login">
-                        <span>
-                            <input type="checkbox" name="" id="">
-                            Ghi nhớ
-                        </span>
-                    </span>
-
-                    <button class="form-submit submit form-login-submit">Đăng Ký</button>
-
-                </form>
+      <div class="thumb_login">
+        <div class="signup_form">
+          <form action="" method="POST" class="form" id="form-1">
+            <div class="directional">
+              <a href="">Trang chủ</a>
+              /
+              <a style="font-weight: 600" href="">Tài khoản</a>
             </div>
+            <h1 class="account">Tài khoản</h1>
+            <h1 class="desc">Đăng Ký</h1>
+            <span class="signup">
+              Bạn đã có tài khoản?
+              <a href="./login.html">Đăng nhập</a>
+            </span>
+            <div class="btn_login">
+              <button class="form-submit login">
+                <img class="logo_login" src="./assets/imgs/google.png" alt="" />
+                Google
+              </button>
+              <button class="form-submit login">
+                <img
+                  class="logo_login"
+                  src="./assets/imgs/facebook.png"
+                  alt=""
+                />
+                Facebook
+              </button>
+            </div>
+            <div class="spacer"></div>
+
+            <div class="btn_signup">
+              <div class="form-group">
+                <span>Họ</span>
+                <input
+                  style="width: 115%"
+                  ;
+                  id="fullname loginId"
+                  name="fullname"
+                  type="text"
+                  placeholder="Email"
+                  class="form-control emailandphone"
+                />
+                <!-- <i class="fa-solid fa-eye show_pass"></i> -->
+                <span class="form-message"></span>
+              </div>
+              <div class="form-group">
+                <span style="margin-left: -15%">Tên</span>
+                <input
+                  style="width: 115%; margin-left: -15%"
+                  ;
+                  id="fullname loginId"
+                  name="fullname"
+                  type="text"
+                  placeholder="Email"
+                  class="form-control emailandphone"
+                />
+                <!-- <i class="fa-solid fa-eye show_pass"></i> -->
+                <span class="form-message"></span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <span>Email</span>
+              <input
+                id="fullname loginId"
+                name="fullname"
+                type="text"
+                placeholder="Email"
+                class="form-control emailandphone"
+              />
+              <!-- <i class="fa-solid fa-eye show_pass"></i> -->
+              <span class="form-message"></span>
+            </div>
+
+            <div class="form-group">
+              <span>Mật khẩu</span>
+              <input
+                id="password loginPassword"
+                name="password"
+                type="password"
+                placeholder="Mật khẩu"
+                class="form-control"
+              />
+              <span class="form-message"></span>
+            </div>
+
+            <div class="form-group">
+              <span>Nhập lại mật khẩu</span>
+              <input
+                id="password loginPassword"
+                name="password"
+                type="password"
+                placeholder="Mật khẩu"
+                class="form-control"
+              />
+              <span class="form-message"></span>
+            </div>
+
+            <span class="maintain_login">
+              <span>
+                <input type="checkbox" name="" id="" />
+                Ghi nhớ
+              </span>
+            </span>
+
+            <button class="form-submit submit form-login-submit">
+              Đăng Ký
+            </button>
+          </form>
         </div>
-
-
+      </div>
     </div>
 
     <div class="footer">
-        <div class="footer__logo">
-            <div class="footer__logo-name">
-                <img src="assets/imgs/toàn-logos_black.png" alt="" />
-                <span>TOAN Store</span>
-            </div>
-            <p>
-                Khách hàng rất quan trọng, chúng tôi luôn dõi theo khách hàng.Khách
-                hàng luôn là mục tiêu hàng đầu mà chúng tôi muốn chinh phục được
-            </p>
-            <button class="btn-gray">Đăng nhập</button>
+      <div class="footer__logo">
+        <div class="footer__logo-name">
+          <img src="assets/imgs/toàn-logos_black.png" alt="" />
+          <span>TOAN Store</span>
         </div>
-        <div class="footer__home">
-            <ul>
-                <li>Trang chủ</li>
-                <li>Sản phẩm</li>
-                <li>Danh mục</li>
-                <li>Cửa hàng</li>
-                <li>Đăng nhập</li>
-            </ul>
-        </div>
-        <div class="footer__shop">
-            <ul>
-                <li>Cửa hàng</li>
-                <li>Áo thun</li>
-                <li>Áo khoác</li>
-                <li>Áo sơ mi</li>
-                <li>Áo len</li>
-            </ul>
-        </div>
-        <div class="footer__list">
-            <ul>
-                <li>Danh mục</li>
-                <li>Nam</li>
-                <li>Trẻ em</li>
-                <li>Nữ</li>
-            </ul>
-        </div>
-        <div class="footer__contact">
-            <ul>
-                <li>Liên hệ</li>
-                <li>Toann3764@gmail.com</li>
-                <li>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-linkedin"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                </li>
-            </ul>
-        </div>
+        <p>
+          Khách hàng rất quan trọng, chúng tôi luôn dõi theo khách hàng.Khách
+          hàng luôn là mục tiêu hàng đầu mà chúng tôi muốn chinh phục được
+        </p>
+        <button class="btn-gray"><a href="login.html">Đăng nhập</a></button>
+      </div>
+      <div class="footer__home">
+        <ul>
+          <li>Trang chủ</li>
+          <li>Sản phẩm</li>
+          <li>Danh mục</li>
+          <li>Cửa hàng</li>
+          <li>Đăng nhập</li>
+        </ul>
+      </div>
+      <div class="footer__shop">
+        <ul>
+          <li>Cửa hàng</li>
+          <li>Áo thun</li>
+          <li>Áo khoác</li>
+          <li>Áo sơ mi</li>
+          <li>Áo len</li>
+        </ul>
+      </div>
+      <div class="footer__list">
+        <ul>
+          <li>Danh mục</li>
+          <li>Nam</li>
+          <li>Trẻ em</li>
+          <li>Nữ</li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <ul>
+          <li>Liên hệ</li>
+          <li>Toann3764@gmail.com</li>
+          <li>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </li>
+        </ul>
+      </div>
     </div>
-
-</body>
-
+  </body>
 </html>
