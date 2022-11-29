@@ -155,6 +155,25 @@ button:hover {
   margin-right: 1rem;
 }
 
+/* Container */
+
+.container{
+    padding: 3rem 15rem;
+}
+
+.ctn__product{
+    display: flex;
+    justify-content: space-between;
+}
+.ctn__product-imgs{
+    width: 45%;
+}
+.ctn__product-imgs img{
+    width: 90%;
+}
+
+
+
 
 /* Footer */
 
