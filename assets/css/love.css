@@ -18,17 +18,10 @@ html {
     rgba(1, 4, 21, 0.52)
   );
 }
-<<<<<<< HEAD
 .container_product_love_header {
   margin: 0 10rem;
   width: 25%;
-  padding: 20px 0 40px 0;
-=======
-.container_product_love_header{
-    margin: 0 10rem;
-    width: 25%;
-    padding: 48px 0 88px 0;
->>>>>>> 571e386e9191feb5398818954cb9a2822212777d
+  padding: 48px 0 88px 0;
 }
 .product_heading {
   padding: 20px 0;
