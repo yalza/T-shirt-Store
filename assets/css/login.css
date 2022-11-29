@@ -173,6 +173,7 @@ html {
     font-weight: 600;
     margin: 0;
     float: right;
+    font-size: 1.6rem;
 }
 
 .form-submit:hover {
@@ -183,6 +184,7 @@ html {
     margin: 12px 0;
     /* float: right; */
     color: #fff;
+    font-size: 1.6rem;
 }
 
 .signup a {
@@ -207,6 +209,7 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 1.6rem;
 }
 
 .banner {
