@@ -57,13 +57,15 @@ button:hover {
   top: 0;
   left: 0;
   right: 0;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 8rem;
   background-color: #fff;
   font-size: 1.9rem;
+  z-index: 1;
 }
 
 .nav__right {
@@ -206,23 +208,23 @@ button:hover {
 /* Container Nav */
 
 .ctn__nav {
- width: 20%;
- font-size: 2.5rem;
+  width: 20%;
+  font-size: 2.5rem;
 }
 
-.ctn__nav-title{
+.ctn__nav-title {
   font-size: 5rem;
   font-weight: 700;
   margin-bottom: 4rem;
 }
 
-.ctn__nav-filter span{
+.ctn__nav-filter span {
   font-size: 4rem;
   font-weight: 550;
   margin-right: 2rem;
 }
 
-.ctn__nav-ip-size{
+.ctn__nav-ip-size {
   display: flex;
   justify-content: space-around;
 }
@@ -231,34 +233,34 @@ button:hover {
 .ctn__nav-price,
 .ctn__nav-dollar,
 .ctn__nav-color,
-.ctn__nav-size{
+.ctn__nav-size {
   display: flex;
   justify-content: space-between;
   margin: 2rem 0;
-  padding: 2rem 0;;
+  padding: 2rem 0;
   border-top: 1px solid gray;
 }
 
-.ctn__nav-dollar{
+.ctn__nav-dollar {
   border: none;
 }
 
-.ctn__nav-cl-span span{
-  padding:0 1.3rem;
+.ctn__nav-cl-span span {
+  padding: 0 1.3rem;
   margin-right: 2rem;
   border-radius: 100%;
   background-color: #333;
 }
 
-.ctn__nav-sex button{
+.ctn__nav-sex button {
   border: none;
   width: 9rem;
   font-size: 2rem;
-  padding: 0.5rem 1rem  ;
+  padding: 0.5rem 1rem;
 }
 
 /* Container - product */
-.ctn__product{
+.ctn__product {
   width: 80%;
   margin-left: 5rem;
   padding: 1rem;
@@ -307,7 +309,7 @@ button:hover {
   color: rgb(242, 242, 27);
 }
 
-.show_more{
+.show_more {
   margin-left: 50%;
   transform: translateX(-50%);
   margin-top: 5rem;
@@ -316,12 +318,12 @@ button:hover {
 
 /* offer product */
 
-.product__offer{
+.product__offer {
   padding: 0 15rem;
   margin-bottom: 5rem;
 }
 
-.product__offer h5{
+.product__offer h5 {
   font-size: 4rem;
   margin-left: 50%;
   transform: translateX(-50%);
