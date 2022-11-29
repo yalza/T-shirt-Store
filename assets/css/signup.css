@@ -20,3 +20,17 @@ html {
     display: flex;
     justify-content: space-between;
 }
+
+.main{
+    margin-top: 8rem;
+}
+
+.aaa{
+    transform: translateY(-80%);
+}
+
+.bbb{
+    margin-left: 10rem;
+    width: 5rem;
+    overflow: hidden;
+}
