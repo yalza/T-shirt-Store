@@ -198,7 +198,7 @@ button:hover {
 /* ----------Container_____________ */
 
 .container {
-  padding: 10rem 15rem;
+  padding: 8rem 15rem;
   display: flex;
   justify-content: space-between;
 }
@@ -213,6 +213,7 @@ button:hover {
 .ctn__nav-title{
   font-size: 5rem;
   font-weight: 700;
+  margin-bottom: 4rem;
 }
 
 .ctn__nav-filter span{
@@ -261,7 +262,7 @@ button:hover {
   width: 80%;
   margin-left: 5rem;
   padding: 1rem;
-  margin-top: 8rem;
+  margin-top: 13rem;
 }
 
 .ctn__product-list {
@@ -304,6 +305,28 @@ button:hover {
 .item-infor .item-rating {
   margin: 2rem;
   color: rgb(242, 242, 27);
+}
+
+.show_more{
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 5rem;
+  padding: 1rem 4rem;
+}
+
+/* offer product */
+
+.product__offer{
+  padding: 0 15rem;
+  margin-bottom: 5rem;
+}
+
+.product__offer h5{
+  font-size: 4rem;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  margin-bottom: 5rem;
 }
 
 /* Footer */
