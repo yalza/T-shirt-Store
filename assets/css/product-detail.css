@@ -331,7 +331,6 @@ button:hover {
   margin: 5rem 0;
   justify-content: space-between;
   height: 40rem;
-  overflow: hidden;
 }
 
 .ctn__product-list img {

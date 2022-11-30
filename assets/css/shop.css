@@ -275,7 +275,7 @@ a{
   display: flex;
   justify-content: space-between;
   height: 40rem;
-  overflow: hidden;
+
 }
 
 .ctn__product-list img {
