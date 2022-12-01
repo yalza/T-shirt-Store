@@ -46,6 +46,7 @@ html {
     width: 40%;
     height: 100%;
     display: flex;
+    padding: 0 5rem;
     justify-content: center;
     /* background-image: linear-gradient(to right, rgb(28, 21, 43), rgb(146, 146, 146)); */
     /* display: none; */

@@ -65,6 +65,7 @@ button:hover {
   height: 8rem;
   background-color: #fff;
   font-size: 1.9rem;
+  z-index: 1;
 }
 
 .nav__right {
